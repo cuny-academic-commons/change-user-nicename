@@ -1,0 +1,11 @@
+{
+	"name": "cuny-academic-commons/change-user-nicename",
+	"description": "A WP-CLI package to change user nicename.",
+	"type": "wp-cli-package",
+	"require": {
+		"wp-cli/wp-cli": "^2.5"
+	},
+	"autoload": {
+		"files": [ "src/ChangeUserNicenameCommand.php" ]
+	}
+}
